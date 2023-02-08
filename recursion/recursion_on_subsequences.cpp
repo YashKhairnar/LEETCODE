@@ -18,7 +18,6 @@ void print_subsequences(int size, vector<int> &v, int index, int arr[])
         if(v.size()==0)
               cout<<"{}"<<" ";
         cout<<endl;
-
         return ;   
     }
     v.push_back(arr[index]);// picking up the element at index
