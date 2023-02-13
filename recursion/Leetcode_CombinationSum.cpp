@@ -33,12 +33,10 @@ void findCombinationSum(int index, int target, vector<int> &arr, vector<vector<i
 
 }
 
-int main()
+vector<vector<int>> CombinationSum(vector<int> &candidates, int target)
 {
-   vector<vector<int>> CombinationSum(vector<int> &candidates, int target){
     vector<vector<int>> ans;
     vector<int> ds;
     findCombinationSum(0,target,candidates,ans,ds);
-    return
+    return ans;
    }
-}
