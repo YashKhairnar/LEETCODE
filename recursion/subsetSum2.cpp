@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     void find_subset(int index,vector<vector<int>> &ans, vector<int> &nums, vector<int> &ds)
@@ -26,3 +27,5 @@ public:
         return ans;
     }
 };
+
+*/
